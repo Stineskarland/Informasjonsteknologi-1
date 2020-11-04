@@ -1,0 +1,87 @@
+<!doctype html>
+<html>
+    <head>
+<title> Oppgave uke 43 </title>
+<!-- UTF-8 gjør at vi kan bruke æ, ø og å -->
+<meta charset- "utf-8">
+    </head>
+    <body>
+    <h2> Oppsummering kapittel 4 </h2>
+    <p>Internett er et nettverk at nettverk som kobler datamaskiner sammen slik at de kan kommunisere med hverandre.<br>
+       For at dette skal fungere må makinene ha samme protokoller(spilleregler).<br> Internett består av maskinvare(hardware), som fysisk kobler maskinen sammen, <br>i tillegg til programvare (software) som behandler informasjonen som sendes rundt.
+       Når datamaskiner er koblet sammen har vi det vi kaller et nettverk, dersom flere maskiner kobles sammen blir nettverket større.<br> Maskinene vi vanligvis brukes kalles klienter, maskinene som lagrer informasjonen vi søker etter på nett, kalles tjenere. <br > 
+       Dette fungerer ved at klienten sender en forspørsel til maskinen (tjeneren) der bildet er lagret. Denne forspørslen er i form av en pakke, som inneholder informasjon om klienten, tjeneren og hva klienten ønsker. Svaret sendes tilbake i pakker, og til slutt vises bildet på skjermen til klienten. <br> 
+       Det er mange steg i prosessen, men den skjer i løpet av noen sekunder. <br> Internettstandarder gjør at kommunikasjon mellom maskinvare og programvare kan fungere, tross ulike produsenter.<br> Standarder for datakommunikasjon kalles ofte protokoller. Desse angir
+       regler eller forskrifter som er nødvendig for at maskiner og programmer kan kommunisere seg i mellom. <br>De to viktiste er TCP og IP. Internettprotokollen (IP) er ansvarlig for kommunikasjon mellom datamaskiner og gir alle maskiner en unik IP-adresse. 
+       Denne adressa består av fire tall adskilt med punktum.<br>Transmission Conrol Protocol(TCP) er ansvarlig for sending av informasjon(pakker) mellom maskiner. Den angir hvordan pakker skal sendes, mottas og settes sammen igjen.
+       <br> Hypertext Transfer Protocol (HTTP) sørger for at nettelsere hos klienter, kan kommunisere med tjenere. <br><br> Hypertext Transfer Protocol (HTTP) sørger for at nettelsere hos klienter, kan kommunisere med tjenere. <br> </p>
+        <h4>Pakkeliste (eksempel på uorganisert liste) </h4>
+        <ul>
+            <p>
+            <li>Varme klær </li>
+            <li> Fjellsko</li>
+            <li>Telt </li>
+            <li> Mat</li>
+            </p>
+        </ul>
+       
+        <h4> Høyeste fjell i Norge (eksempel på organisert liste)</h4>
+        <ol>
+         <p>
+            <li>Galdhøpiggen </li>
+            <li> Glittertind</li>
+            <li>Store Skagastølstind </li> 
+            </p>
+        </ol>
+        <h4>Link til github (eksempel på link til ei anna nettside) </h4>
+       <p>
+           <a href="https://github.com/" target="_blank"> Github</a>
+        </p>
+        <h4>Tabell over høyeste fjell i Norge, med høyde og kommune (eksempel på tabell) </h4>
+        <p>
+            <table>
+            <tr> 
+                <th> Fjell</th>
+                <th> Høyde</th>
+                <th> Kommune</th>
+            </tr>
+            <tr>
+                <td> Galdhøpiggen</td>
+                <td> 2469 moh</td>
+                <td> Lom</td>
+            </tr> 
+            <tr> 
+                <td> Glittertid </td>
+                <td> 2452 moh </td>
+                <td> Årdal/Luster </td>
+           </tr>
+            <tr> 
+                <td> Store Skagastøltind </td>
+                <td> 2405 moh </td>
+                <td>Lom  </td>
+                </tr>
+            </table>
+        </p>
+        <h4> Pålogging github(bilde eksempel)</h4>
+            <p> <img src="Bilder/Github.png" alt="Github" width="300"/>   </p>
+        <h4> Filstruktur (bilde eksempel)</h4>
+            <p>  <img src="Bilder/FIlstruktur.png" alt="FIlstruktur" width="300"/> 
+       </p>
+        <h4> Nettverk (video eksempel)</h4>
+        <p>
+            <video width="300" height="200"controls>
+            <source src="Video/video_nettverk.mp4" type="video/mp4">
+                    </video>
+                </p>
+        <h4> Skjema</h4>
+        <p>
+        <form method="GET">
+            Ditt navn
+            <Input type="Text" name="Dittnavn">
+            Hva er din favorittrett
+            <input type="Text" name="Favorittrett">
+            <input type="submit" name"Sendinn" value="Send inn">
+                </form>
+                </p>
+    </body>
+</html>
