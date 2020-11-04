@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+ <title> Oppgave uke 44 </title>
+<!-- UTF-8 gjør at vi kan bruke æ, ø og å -->
+<meta charset- "UTF-8">
+ <link rel="stylesheet" href="Stilark/Stilark.css">
+    </head>
+    <body>
+     <h1> Oppgave 7.1 og 7.2 </h1>
+      <div> Dette er eit eksempel på eit div-element, som blir mye brukt i CSS.</div>
+      <div> I CSS-koding gjør dette at mulighetene for å designe ulike blokker på nettsiden blir større.</div>
+     <h4> Høyeste fjell i Strand</h4>
+     <ol>
+      <li>Heiahorn </li>
+      <li> Godlifjellet</li>
+      <li> Naganibbå</li>
+     </ol>
+     <h4> Handleliste</h4>
+     <ul>
+      <li>Eple </li>
+      <li>Smør </li>
+      <li>Brød </li>
+     </ul>
+     <h4> Pakkeliste</h4>
+     <ul class="nystil">
+      <li>Fjellsko </li>
+      <li>Varme klær </li>
+      <li> Mat</li>
+      </ul class="nystil">
+</body>   
+</html>
